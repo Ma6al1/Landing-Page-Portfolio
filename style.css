@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&display=swap');
 
 * {
     margin: 0;
@@ -7,8 +7,8 @@
     text-decoration: none;
     }
 
-.body { 
-    font-family: 'Poppins', sans-serif;
+body { 
+    font-family: 'Averia Serif Libre', cursive;
 }
 
 .logo {
