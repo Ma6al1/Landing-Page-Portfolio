@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&display=swap');
 
 * {
     margin: 0;
@@ -6,6 +7,11 @@
     box-sizing:border-box;
     text-decoration: none;
     }
+
+:root {
+    --principal: #535F2D;
+    --secundario: #EAB465;
+}
 
 body { 
     font-family: 'Averia Serif Libre', cursive;
@@ -16,8 +22,8 @@ body {
 }
 
 
-.header {
-    background-color: #535F2D;
+.nav_container {
+    background-color: var(--principal);
     height: 80px;
     display: flex;
     justify-content: space-between;
@@ -32,9 +38,86 @@ body {
 }
 
 .nav-link {
-    color: #EAB465 ;
+    color: var(--secundario) ;
 }
 
 .nav-link:hover {
     color: white;
+}
+
+.section {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+}
+
+.slogan {
+    display: flex;
+    font-size: xx-large;
+}
+
+.text {
+    max-width: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 10px 70px 10px 10px ;
+}
+
+.img {
+    background-size: cover;
+    width: 350px;
+    border-radius: 30px;
+}
+
+.input {
+    display: flex;
+    gap: 10px;
+}
+
+.input-1 {
+    color: white;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--principal);
+    cursor: pointer;
+}
+.input-2 {
+    color: white;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--principal);
+    cursor: pointer;
+}
+
+.container_text {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    padding: 30px;
+}
+.text_2 {
+    background-color: var(--principal);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 200px;
+    padding: 30px;
+    width: 800px;
+    height: 200px;
+    text-align: center;
+    font-size: x-large
 }
