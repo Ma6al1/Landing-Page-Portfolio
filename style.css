@@ -11,6 +11,7 @@
 :root {
     --principal: #535F2D;
     --secundario: #EAB465;
+    --terciario: #fff; 
 }
 
 body { 
@@ -38,7 +39,7 @@ body {
 }
 
 .nav-link {
-    color: var(--secundario) ;
+    color: var(--terciario) ;
 }
 
 .nav-link:hover {
@@ -121,3 +122,13 @@ body {
     text-align: center;
     font-size: x-large
 }
+.logo_wsp {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    cursor: pointer;
+  }
+  
+  .logo_wsp img {
+    width: 70px;
+  }
