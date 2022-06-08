@@ -8,29 +8,33 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <nav class="nav_container">
-        <img src="./img/LOGO-para-web.png" alt="logo" class="logo"/>
-        <nav class="nav">
+    <header>
+        <nav>
             <ul class="nav-list">
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Productos</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Preguntas Frecuentes</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Nosotrxs</a>
-                </li>
+                <img src="./img/LOGO-para-web.png" alt="logo" class="logo"/>
+                <div class="items">
+                    <li class="nav-item">
+                        <a href="#inicio" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#productos" class="nav-link">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#preguntas" class="nav-link">Preguntas Frecuentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#nosotrxs" class="nav-link">Nosotrxs</a>
+                    </li>
+                </div>
             </ul>
         </nav>
-    </nav>
-    <section class="section">
+    </header>
+    <main class="main">
+        <!-- Esta es la seccion del slogan -->
+        <section class="slogan-container">
         <div class="text">
             <h1 class="slogan">Todo lo que te hace bien a vos y al planeta</h1>
-            <p class="parrafo">
+            <p>
                 Ecoglow es una marca de cosméticos y productos para
                 el cuidado de la piel.
                 Ofrecemos una cosmética natural, libre de crueldad
@@ -44,17 +48,94 @@
         <div class="img">
             <img src="./img/CREATIVE LOCATION -Location Agency - Film and Photography location agents and production scouting se.jpg" alt="img" class="img">
         </div>
-    </section>
-    <div class="logo_wsp">
-        <img src="./img/whatsapp.png" alt="logo_wsp">
-    </div>
-    <div class="container_text">
-        <p class="text_2">
-            Porque creemos que es posible vernos hermosxs y
-            cuidar de nuestra piel de la mejor manera, sin participar
-            del maltrato animal y siendo lo más conscientes de
-            nuestro impacto ambiental
-        </p>
-    </div>
+        </section>
+        <!-- Esta es la seccion del parrafo -->
+        <section>
+            <div class="container_text">
+                <p class="text_2">
+                    Porque creemos que es posible vernos hermosxs y
+                    cuidar de nuestra piel de la mejor manera, sin participar
+                    del maltrato animal y siendo lo más conscientes de
+                    nuestro impacto ambiental
+                </p>
+            </div>
+        </section>
+        <!-- este es el logo de wsp -->
+        <section>
+            <div class="logo_wsp">
+                <img src="./img/whatsapp.png" alt="logo_wsp">
+            </div>
+        </section>
+        <!-- Esta es la seccion de ventajas -->
+        <section class="section-advantages">
+            <h2 class="title-advantages">Nuestras ventajas</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis id laudantium</p>
+            <div class="container-cards">
+                <!-- card 1 -->
+                <div class="card">
+                    <img src="./img/sustentable.png" alt="info-card">
+                    <h2>Sustentable</h2>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem sint laboru
+                    </p>
+                </div>
+                <!-- Card 2 -->
+                <div class="card">
+                    <img src="./img/vegan.png" alt="info-card">
+                    <h2>Vegano</h2>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem sint laboru
+                    </p>
+                </div>
+                <!-- Card 3 -->
+                <div class="card">
+                    <img src="./img/hecho-con-amor.png" alt=info-card">
+                    <h2>Hecho con amor</h2>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem sint laboru
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- Esta es la seccion explicativa-->
+        <section class="section-work"> 
+            <h2 class="title-work">¿Como trabajamos?</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis id laudantium</p>
+            <div class="container-steps">
+                <!-- step 1 -->
+                <div class="steps">
+                    <img src="./img/1.png" alt="step">
+                    <h2>Hola</h2>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem sint laboru
+                    </p>
+                </div>
+                <!-- step 2 -->
+                <div class="steps">
+                    <img src="./img/2.png" alt="step">
+                    <h2>Hola</h2>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem sint laboru
+                    </p>
+                </div>
+                <!-- step 3 -->
+                <div class="steps">
+                    <img src="./img/3.png" alt="step">
+                    <h2>Hola</h2>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem sint laboru
+                    </p>
+                </div>
+                <!-- step 4 -->
+                <div class="steps">
+                    <img src="./img/4.png" alt="step">
+                    <h2>Hola</h2>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem sint laboru
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
