@@ -205,14 +205,17 @@ body {
     gap: 20px;
     padding: 20px;
 }
+
 .title-work {
     font-size: xx-large;
     font-weight: bolder;
 }
+
 .container-steps img {
     width: 90px;
     height: auto;
 }
+
 .container-steps {
     display: flex;
     justify-content: center;
@@ -234,4 +237,149 @@ body {
     gap: 20px;
     margin: 20px;
     padding: 20px;
+}
+/* Aca estan los clientes */
+
+.section-clientes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.container-clientes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.container-clientes img {
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.title-clientes {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.cliente {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Aca empieza la seccion de contacto */
+
+.section-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.section-contacto img {
+    border-radius: 20px;
+    height: 100%;
+}
+
+.datos-contacto {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.container-contacto h2 {
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.container-datos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.ubicacion {
+    font-size: large;
+    font-weight: bold
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.redes a {
+    color: black;
+}
+
+.container-iconos {
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+/* Aca empieza el footer */
+
+
+footer {
+    background-color: #EAB465;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;;
+    color: var(--terciario);
+    padding: 3rem 0;
+    gap: 100px;
+}
+
+footer img { 
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.container-footer a {
+    color: #fff;
+}
+
+.container-footer h2 {
+    font-size: xx-large;
 }
